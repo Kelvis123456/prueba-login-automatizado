@@ -1,0 +1,47 @@
+ Historias de Usuario
+
+ Historia 1
+Como usuario,  
+quiero acceder al sitio web para iniciar sesión con mi usuario y contraseña,  
+para poder ver mi cuenta.
+
+Criterios de Aceptación:
+- Si ingreso credenciales válidas, accedo correctamente.
+
+Criterios de Rechazo:
+- Si ingreso mal el usuario o contraseña, no me deja pasar.
+- Si dejo campos vacíos, muestra mensaje de error.
+
+ Historia 2
+Como usuario,  
+quiero ver un mensaje de bienvenida al iniciar sesión,  
+para saber que ingresé correctamente.
+
+Aceptación: Aparece mensaje tipo “Bienvenido”.
+
+Rechazo: No hay mensaje si el login falla.
+
+ Historia 3
+Como usuario,  
+quiero que el botón de iniciar sesión esté habilitado,  
+para poder iniciar cuando quiera.
+
+Aceptación: El botón está visible y habilitado.
+
+Rechazo: Si los campos están vacíos, el botón no hace nada.
+
+ Historia 4
+Como usuario,  
+quiero que los campos de usuario y contraseña sean obligatorios,  
+para evitar errores al intentar entrar.
+
+Aceptación: Muestra advertencia si los campos están vacíos.
+
+Rechazo: Permitir login con campos vacíos.
+
+ Historia 5
+Como usuario,  
+quiero que el sistema recuerde mi sesión si selecciono “Recordarme”,  
+para no tener que iniciar sesión cada vez.
+
+Aceptación: La sesión sigue iniciada al volver al sitio.
